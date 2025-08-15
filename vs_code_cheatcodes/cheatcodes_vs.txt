@@ -1,0 +1,79 @@
+Basic Editing
+
+Copy Line → Alt + Shift + ↑ / ↓
+
+Move Line → Alt + ↑ / ↓
+
+Delete Line → Ctrl + Shift + K
+
+Duplicate Line → Shift + Alt + ↓
+
+Select Line → Ctrl + L
+
+Comment/Uncomment → Ctrl + /
+
+Block Comment → Shift + Alt + A
+
+Navigation
+
+Go to File → Ctrl + P
+
+Go to Symbol in File → Ctrl + Shift + O
+
+Go to Definition → F12
+
+Peek Definition → Alt + F12
+
+Quick Open Recent → Ctrl + R
+
+Navigate Back / Forward → Alt + ← / →
+
+Multi-Cursor Editing
+
+Add Cursor at Next Match → Ctrl + D
+
+Select All Matches → Ctrl + Shift + L
+
+Add Cursor Above/Below → Ctrl + Alt + ↑ / ↓
+
+Search
+
+Find in File → Ctrl + F
+
+Replace in File → Ctrl + H
+
+Find in All Files → Ctrl + Shift + F
+
+Replace in All Files → Ctrl + Shift + H
+
+File/Window Management
+
+New File → Ctrl + N
+
+Open File → Ctrl + O
+
+Save → Ctrl + S
+
+Save All → Ctrl + K S
+
+Close File → Ctrl + W
+
+Close All Files → Ctrl + K W
+
+Split Editor → Ctrl + \
+
+Switch Between Tabs → Ctrl + Tab
+
+Terminal
+
+Toggle Terminal → Ctrl + `
+
+New Terminal → `Ctrl + Shift + ``
+
+Clear Terminal → Ctrl + K (inside terminal)
+
+Code Formatting
+
+Format Document → Shift + Alt + F
+
+Format Selection → Ctrl + K Ctrl + F
