@@ -1,5 +1,8 @@
 Basic Editing
 
+
+Create a new file → Ctrl + Alt + Windows + N
+
 Copy Line → Alt + Shift + ↑ / ↓
 
 Move Line → Alt + ↑ / ↓
