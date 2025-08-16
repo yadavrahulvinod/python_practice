@@ -1,0 +1,77 @@
+Installing Databricks CLI on Windows 11 (64-bit)
+Option 1: Using WinGet (Windows Package Manager)
+
+This is the simplest and most straightforward method:
+
+Open Command Prompt or PowerShell as an administrator.
+
+Run:
+
+winget search databricks
+winget install Databricks.DatabricksCLI
+
+
+After installation, verify it with:
+
+databricks -v
+
+
+You should see version 0.205.0 or above if the installation was successful. 
+Databricks Documentation
+Microsoft Learn
+
+Option 2: Using Chocolatey
+
+Note: This method is labeled experimental, but still an option:
+
+Open Command Prompt as admin.
+
+Run:
+
+choco install databricks-cli
+
+
+Verify installation:
+
+databricks version
+
+
+Databricks Documentation
+Microsoft Learn
+
+Option 3: Install via curl Script
+
+If you're comfortable running scripts:
+
+Open PowerShell as admin.
+
+Run:
+
+curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+
+
+Then verify:
+
+databricks -v
+
+
+Databricks Documentation
+
+Quick Comparison Table
+Installation Method	Command(s)	Notes
+WinGet (recommended)	winget install Databricks.DatabricksCLI	Easiest and reliable method
+Chocolatey	choco install databricks-cli	Experimental but works
+Curl script	`curl ...	sh`
+Additional Tips
+
+After installation, ensure databricks -v returns a valid version.
+
+You can now use commands like:
+
+databricks fs ls
+databricks fs cp dbfs:/<path> <local_path>
+
+
+to interact with Databricks DBFS 
+Chaos Genius
+.
