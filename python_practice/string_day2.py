@@ -74,7 +74,7 @@ print(stest.replace(" ","_")) # this replace all the occurace of a specific cara
 
 ex="1,2013-07-25 00:00:00.0,11599,CLOSED "
 
-new = ex.split(",")# it returns a list and splits the entire string by as that character occurance is found
+new = ex.split(",")# it takes a string and returns a list and splits the entire string by as that character occurance is found
 print(new[3].strip())# o/p : CLOSED
 
 
