@@ -119,3 +119,22 @@ newammount_withgst = []
 for b in ammount:
    newammount_withgst.append(b+b*18/100)
 print(newammount_withgst)
+
+
+klist =list(range(1,109,)) #help to create test data list from list and range funtion
+
+print(klist)
+
+print(klist[0:5]+klist[8:12]) #sliced 2 difrent ranges based on our use case
+'''
+klist.append(numbers) # this methord appends list in list at the ending side as a nested list
+
+print(klist) 
+print(klist[108][1]) # this is how we can access a nested list 
+'''
+"to make a flattend list with 2 lists"
+
+klist.extend(numbers)
+
+print(klist) # comment out line number 130 and see the output
+

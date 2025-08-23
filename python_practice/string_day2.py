@@ -61,10 +61,11 @@ print(stest[:])
 print(stest[-5:])
 print(stest[-8:len(stest)])
 print(stest[-5:-1])
-index = stest.find(" ")+1
+index = stest.find(" ")+1 # to find the first occurences index
 print(stest[index:len(stest)])
-
 print(stest[::-1]) # to reverse a string 
+
+
 print(stest.index("e"))
 print(stest.capitalize())
 print(stest.split("a"))
